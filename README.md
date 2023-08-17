@@ -7,12 +7,14 @@ Scripts/assets to provision and instantiate required hardware in AWS
 - S3
 - Cluster MemoryDB (Redis)
 - Cluster DocumentDB (Mongo)
+- API Gateway
 
 ## objective:
 
 - ECR to store docker image to OpenFaas functions deploy
 - S3 to store the zip file to AWS Lambda Functions deploy
 - Redis and Mongo DB to graph database used on functions
+- API Gateway to recieve calls to lambda functions
 
 ## Configuration
 
